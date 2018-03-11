@@ -24,14 +24,16 @@
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-\documentclass[11pt, a4paper]{awesome-cv} % A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, letterpaper]{awesome-cv} % A4 paper size by default, use 'letterpaper' for US letter
 
 \geometry{left=2cm, top=1.5cm, right=2cm, bottom=2cm, footskip=.5cm} % Configure page margins with geometry
 
 \fontdir[fonts/] % Specify the location of the included fonts
 
+\newcommand*{\sectiondir}{resume/}
+
 % Color for highlights
-\colorlet{awesome}{awesome-red} % Default colors include: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange, awesome-nephritis, awesome-concrete, awesome-darknight
+\colorlet{awesome}{awesome-nephritis} % Default colors include: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange, awesome-nephritis, awesome-concrete, awesome-darknight
 %\definecolor{awesome}{HTML}{CA63A8} % Uncomment if you would like to specify your own color
 
 % Colors for text - uncomment and modify
@@ -48,7 +50,7 @@
 %----------------------------------------------------------------------------------------
 
 \name{Eric R.}{Staples}
-\address{301 N. Greenwood Cir. #7, Seattle, WA 98103}
+\address{301 N. Greenwood Cir. \#7, Seattle, WA 98103}
 \mobile{(206) 954-1418}
 
 \email{erstaples@gmail.com}
@@ -62,7 +64,7 @@
 %\xing{xing name}
 %\extrainfo{test} % Other text you want to include on this line
 
-\position{DevOps Engineer{\enskip\cdotp\enskip}Kubernetes Expert} % Your expertise/fields
+\position{DevOps Engineer{\enskip\cdotp\enskip}Kubernetes Admin} % Your expertise/fields
 
 \makecvfooter{\today}{Eric R. Staples~~~·~~~Résumé}{\thepage} % Specify the letter footer with 3 arguments: (<left>, <center>, <right>), leave any of these blank if they are not needed
 
@@ -77,9 +79,9 @@
 %	Each section is imported separately, open each file in turn to modify content
 %----------------------------------------------------------------------------------------
 
-\input{cv-sections/skills.tex}
-\input{cv-sections/experience.tex}
-\input{cv-sections/education.tex}
+\input{\sectiondir}{skills.tex}
+\input{\sectiondir}{experience.tex}
+\input{\sectiondir}{education.tex}
 
 %----------------------------------------------------------------------------------------
 
