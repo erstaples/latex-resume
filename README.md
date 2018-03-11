@@ -1,6 +1,6 @@
 # Resume
 
-![Resume](/resume_cv.pdf)
+[View Resume](/resume_cv.pdf)
 
 # Sources
 
