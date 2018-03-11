@@ -45,6 +45,12 @@
 \renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad} % If you would like to change the social information separator from a pipe (|) to something else
 
 %----------------------------------------------------------------------------------------
+%  3rd party packages	
+%----------------------------------------------------------------------------------------
+
+\usepackage{import}
+
+%----------------------------------------------------------------------------------------
 %	PERSONAL INFORMATION
 %	Comment any of the lines below if they are not required
 %----------------------------------------------------------------------------------------
@@ -79,9 +85,9 @@
 %	Each section is imported separately, open each file in turn to modify content
 %----------------------------------------------------------------------------------------
 
-\input{\sectiondir}{skills.tex}
-\input{\sectiondir}{experience.tex}
-\input{\sectiondir}{education.tex}
+\import{\sectiondir}{skills.tex}
+\import{\sectiondir}{experience.tex}
+\import{\sectiondir}{education.tex}
 
 %----------------------------------------------------------------------------------------
 
