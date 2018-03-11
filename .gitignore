@@ -1,0 +1,6 @@
+.DS_Store
+cv-sections/.DS_Store
+resume_cv.*
+!resume_cv.pdf
+!resume_cv.tex
+
